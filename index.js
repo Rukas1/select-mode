@@ -3,9 +3,9 @@
 const rad1 = document.getElementById("radio1");
 const rad2 = document.getElementById("radio2");
 
-document.querySelector(".txt1").classList.add("active");
+document.querySelector(".txt2").classList.add("active");
 
-let typeContent;
+let typeContent = false;
 
 rad1.addEventListener("click", () => {
     document.querySelectorAll(".active").forEach(el => {
