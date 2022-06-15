@@ -1,0 +1,77 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: greenyellow 1px solid; */
+}
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #131416;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: #fff;
+    width: 600px;
+    max-width: 90%;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#testForm fieldset {
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+#testForm fieldset legend {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    text-decoration: underline #27ea60 3px;
+}
+
+#testForm fieldset p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.textAppear {
+    text-indent: 10px;
+    margin-top: 15px;
+    display: none;
+}
+
+.active {
+    color: #27ea60;
+    display: block;
+}
+
+#pull {
+    padding: 15px 35px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    background-color: #131416;
+    color: #fff;
+    border: #000 solid 2px;
+    margin-top: 1.5rem;
+    flex-grow: 1;
+}
+
+#pull:active {
+    background-color: #fff;
+    color: #131416;   
+}
